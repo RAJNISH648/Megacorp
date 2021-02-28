@@ -1,0 +1,1295 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header Banner starts */
+
+.header{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:top center ;
+    color: #fff;
+}
+
+.header .fixed-width{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+ .nav h1{
+    float: left;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+.nav ul{
+    float: right;
+    list-style-type: none; 
+    margin-top: 40px;
+    
+}
+    .nav li{
+        float: left;
+        padding-right: 12px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 700;
+       
+    }
+    .nav a{
+        text-decoration: none;
+        color: #fff;
+}
+    .nav span{
+       
+        border-radius: 4px;
+        background-color: #25a2c3;
+        padding: 15px 12px;
+        font-weight: 700;
+}
+
+
+.banner{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30%;
+
+}
+
+.banner h1{
+    font-weight: 500;
+    font-size: 33px;
+}
+.banner p{
+    color: #dfdf;
+    font-size: 17px;
+    font-weight: 400;
+}
+.banner button{
+    width: 145px;
+    height: 40px;
+    background-color: #25a2c3;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+
+/* header Banner Ends */
+
+/* Three box-section stats */
+
+.three-section{
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+}
+
+.three-section .fixed-width{
+
+    width: 60%;
+    max-width: 1200px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+ .three-section .fixed-width .box{
+     width: 30%;
+     
+     float: left;
+}
+  .box h2{
+      font-size: 22px;
+      font-weight: 500;
+}
+  .box .fa{
+      font-size: 45px;
+      margin: 15px 0;
+
+  }
+  .box p{
+      color: grey;
+      margin: 25px 0;
+      font-size: 12px;
+      line-height: 22px;
+      font-weight: 500;
+  }
+  .box button{
+    width: 130px;
+    height: 40px;
+    background-color: #25a2c3;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 3px;
+
+  }
+  .three-section .fixed-width .add-float{
+      float: right;
+  }
+  .three-section .fixed-width .add-margin{
+      margin-left: 5%;
+  }
+
+
+/* Three box-section Ends */
+
+
+/* Biglast-section starts */
+
+.biglast-section{
+    width: 100%;
+    background-color: #101214;
+    clear: both;
+}
+
+.biglast-section .fixed-width{
+    width: 60%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.left-section{
+    width: 60%;
+    float: left;
+}
+.left-section .left-top{
+    width: 100%;
+}
+
+.left-top h3{
+    text-align: left;
+    font-size:18px ;
+    font-weight: 500;
+    color: #fff;
+}
+.left-top img{
+    width: 100%;
+}
+.left-top p{
+ 
+    font-size: 11.4px;
+    text-align: left;
+    color: grey;
+    line-height: 15px;
+  
+}
+.left-top a{
+    color: #dfdfdf;
+}
+.left-top button{
+    width: 110px;
+    height: 40px;
+    background-color: #25a2c3;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 3px;
+
+}
+.left-top hr{
+    width: 100%;
+    height: 0.5px;
+    background-color:grey;
+    border: none;
+       
+}
+
+.left-buttom{
+    width: 100%;
+  
+}
+.left-left{
+    width: 45%;
+    float: left;
+  
+}
+
+.leftA{
+    width: 100%;
+  
+    
+}
+
+.left-leftA h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.left-leftA p{
+    color: grey;
+    font-size: 9.3px;
+    text-align: left;
+    line-height: 15px;
+}
+.leftB{
+    width: 100%;
+    
+    padding: 5px 0;
+
+}
+.leftB button{
+    width: 38%;
+    height: 35px;
+    background-color: #25a2c3;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 2px;
+    float: left;
+
+}
+.leftB h6{
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+.leftB p{
+    color: grey;
+    font-size: 9.6px;
+    line-height: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding: 6px 0;
+    
+}
+.leftB hr{
+    width: 100%;
+    height: 0.5;
+    background-color: grey;
+    border: none;
+}
+
+
+.leftC{
+    width: 100%;
+    padding: 5px 0px;
+    
+
+}
+.leftC button{
+    width: 38%;
+    height: 35px;
+    background-color: #25a2c3;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 2px;
+    float: left;
+
+}
+.leftC h6{
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+.leftC p{
+    color: grey;
+    font-size: 9.6px;
+    line-height: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding: 6px 0;
+}
+
+.left-right{
+    width: 50%;
+    float: right;
+   
+    color: #fff;
+    text-align: left;
+
+}
+
+.left-rightA{
+    width: 100%;
+
+}
+.left-rightA h2{
+    font-size: 20px;
+    font-weight: 400;
+  
+}
+.left-rightA h5{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -18px;
+    
+}
+.left-rightA ul{
+    text-align: left;
+}
+.left-rightA li{
+    color: grey;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+.left-rightA hr{
+    margin: 10px 0px;
+    height: 1px;
+    background-color: grey;
+    border: none;
+}
+
+.left-rightB{
+    width: 100%;
+    
+}
+.left-rightB h5{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    
+    
+}
+.left-rightB ul{
+    text-align: left;
+}
+.left-rightB li{
+    color: grey;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+.left-rightB hr{
+    margin: 10px 0px;
+    height: 1px;
+    background-color: grey;
+    border: none;
+}
+
+.left-rightc{
+    width: 100%;
+    
+}
+.left-rightc h5{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+.left-rightc ul{
+    text-align: left;
+}
+.left-rightc li{
+    color: grey;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.right-section{
+    width: 35%;
+   
+    float: right;
+ 
+}
+.right-section .right-top{
+    width: 100%;
+
+}
+.right-topA{
+    width: 45%;
+    float: left;
+}
+
+.right-topA h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  
+}
+.right-topA ul{
+    text-align: left;
+    width: 100%;
+    
+   
+}
+.right-topA li{
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+    
+    
+
+}
+.right-topA hr{
+    width: 100%;
+    height: 0.5px;
+    border: none;
+    background-color: grey;
+}
+
+
+
+.right-topB{
+    width: 45%;
+    float: right;
+
+
+}
+.right-topB h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.right-topB ul{
+    text-align: left;
+    width: 100%;
+}
+.right-topB li{
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+    
+
+}
+.right-topB hr{
+    width: 100%;
+    height: 0.5px;
+    border: none;
+    background-color: grey;
+}
+
+
+.right-buttom{
+    width: 100% ;
+   
+   
+    
+   
+}
+.right-buttomA{
+    width: 100%;
+    color: #fff;
+  
+   
+   
+    
+}
+.right-buttomA h3{
+    font-size: 20px;
+    font-weight: 400;
+    
+
+}
+
+.right-buttomA img{
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+.right-buttomA p{
+  
+    width: 70%;
+    float: right;
+    font-size: 9px;
+  
+    color: grey;
+    line-height: 17px;
+   
+}
+.right-buttomA hr{
+    width: 100%;
+    height: 0.5px;
+    position: relative;
+    top: 8px;
+    border: none;
+    background-color: grey;
+
+}
+
+
+
+.right-buttomB{
+    width: 100%;
+    color: #fff;
+}
+.right-buttomB h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right-buttomB img{
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+.right-buttomB p{
+     
+    width: 70%;
+    float: right;
+    font-size: 9px;
+    line-height: 17px;
+    color: grey;
+}
+.right-buttomB hr{
+    width: 100%;
+    height: 0.5px;
+   
+    border: none;
+    background-color: grey;
+
+
+}
+    
+
+.right-buttomB h5{
+    font-size: 10px;
+    font-weight: 700;
+    
+
+}
+
+
+
+
+
+.right-buttomc{
+    width: 100%;
+    color: #fff;
+}
+.right-buttomc h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right-buttomc img{
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+.right-buttomc p{
+   
+    width: 70%;
+    float: right;
+    font-size: 9px;
+   
+    color: grey;
+    line-height: 17px;
+}
+.right-buttomc hr{
+    width: 100%;
+    height: 0.5px;
+ 
+    border: none;
+    background-color: grey;
+    
+}
+.right-buttomc h5{
+    font-size: 10px;
+    font-weight: 700;
+
+}
+
+.right-buttomD{
+    width: 100%;
+    color: #fff;
+}
+.right-buttomD h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right-buttomD img{
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+.right-buttomD p{
+ 
+    width: 70%;
+    float: right;
+    font-size: 9px;
+  
+    color: grey;
+    line-height: 17px;
+}
+
+
+.right-buttomD h5{
+    font-size: 10px;
+    font-weight: 700;
+
+}
+
+.right-buttomD button{
+    width: 110px;
+    height: 35px;
+    background-color: #25a2c3;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 7px 0px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+
+/* Biglast-section Ends*/
+
+
+.footer{
+    width: 100%;
+    color: #fff;
+    background-color: #101214;
+}
+.footer .fixed-width{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+   
+}
+
+.footer .fixed-width p{
+    color: grey;
+}
+.footer .fixed-width a{
+    color:#dfdfdf;
+}
+.footer hr{
+    height: 1px;
+    border: none;
+    background-color: grey;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+/* media querry starts */
+
+
+@media only screen and (max-width:1350px){
+  .nav li{
+       font-size: 12px;
+   }
+
+.left-section{
+    width: 100%;
+    clear: both;
+}
+
+.right-section{
+    width: 100%;
+    clear: both;
+} 
+.left-top h3{
+    
+    font-size:24px ;
+    
+}
+.left-top p{
+ 
+    font-size: 14px;
+    
+    line-height: 22px;
+}
+
+.left-top button{
+    width: 100%;
+    height: 50px;
+
+    font-size: 18px;
+    
+    font-weight: 500;
+    border-radius: 5px;
+}
+}
+
+@media only screen and (max-width:1050px){
+    
+.nav h1{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.header .nav ul{
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+}
+.header  .nav li{
+        clear: both;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+      
+}
+.header .nav span{
+    padding: 15px 18px;
+    
+}
+
+.banner{
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+
+}
+.banner h1{
+    width: 100%;
+    font-size: 28px;
+    
+}
+.banner p{
+     font-size: 14px;
+     
+     text-align: center;
+}
+.banner button{
+    width: 138px;
+    height: 36px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+.left-leftA h1{
+    
+    font-size: 25px;
+    
+}
+.left-leftA p{
+    
+    font-size: 12px;
+    
+    line-height: 18px;
+}
+
+.leftB button{
+    width: 38%;
+    height: 35px;
+    
+    font-size: 12px;
+}
+.leftB h6{
+    font-size: 14px;
+    
+}
+.leftB p{
+    
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.leftC button{
+    width: 38%;
+    height: 35px;
+    
+    font-size: 12px;
+}
+.leftC h6{
+    font-size: 14px;
+    
+}
+.leftC p{
+    
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.left-rightA h2{
+    font-size: 22px;
+    
+}
+.left-rightA h5{
+    font-size: 15px;
+}
+.left-rightA li{
+
+    font-size: 14px;
+    line-height: 20px;
+    
+
+}
+.left-rightB h5{
+    font-size: 15px;
+}
+
+.left-rightB li{
+    
+    font-size: 14px;
+    line-height: 20px;
+}
+.left-rightC h5{
+    font-size: 15px;
+    
+}
+
+.left-rightC li{
+    
+    font-size: 14px;
+    line-height: 20px;
+    
+
+}
+
+
+.right-topA h4{
+    
+    font-size: 24px;
+    
+  
+}
+
+.right-topA li{
+    font-size: 15px;
+    
+
+
+
+
+
+
+}
+.right-topB h4{
+    
+    font-size: 24px;
+    
+  
+}
+
+.right-topB li{
+    font-size: 15px;
+    
+}
+
+.right-buttomA h3{
+    font-size: 24px;
+    
+    
+
+}
+
+.right-buttomA p{
+
+    font-size: 14px;
+
+    line-height: 22px;
+   
+}
+
+
+
+
+
+.right-buttomB h3{
+    font-size: 24px;
+}
+
+.right-buttomB p{
+     
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+
+    
+
+.right-buttomB h5{
+    font-size: 15px;
+
+}
+
+.right-buttomc h3{
+    font-size: 24px;
+}
+
+.right-buttomc p{
+     
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+
+    
+
+.right-buttomc h5{
+    font-size: 15px;
+}
+
+.right-buttomD h3{
+    font-size: 24px;
+}
+
+.right-buttomD p{
+     
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+
+    
+
+.right-buttomD h5{
+    font-size: 15px;
+
+    
+
+}
+
+.right-buttomD button{
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    margin-bottom: 16px;
+} 
+}  
+
+ @media only screen and (max-width:900px){
+
+    
+
+
+ .three-section .fixed-width .box{
+     width: 100%;
+     clear: both;
+     text-align: center;
+    
+}
+  .box h2{
+      font-size: 24px;
+
+      
+      
+}
+  .box .fa{
+      font-size: 45px;
+      
+
+  }
+  .box p{
+    
+      font-size: 13px;
+      /* line-height: 24px; */
+      max-width: 500px;
+      
+  }
+  .box button{
+    width: 100%;
+    height: 50px;
+  
+    
+    font-size: 18px;
+    font-weight: 600;
+    
+    border-radius: 5px;
+}
+.three-section .fixed-width .add-margin{
+    margin-left: 0px;
+}    
+
+.left-left{
+    width: 100%;
+    clear: both;
+}
+
+.left-right{
+    width: 100%;
+    clear: both;
+}
+
+.right-topA{
+    width: 100%;
+    clear: both;
+}
+
+.right-topb{
+    width: 100%;
+    clear: both;
+}
+
+}
+
+@media  only screen and (max-width:700px){
+    
+ .nav h1{
+    
+    font-size: 20px;
+    
+}
+    .nav li{
+    
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        
+       
+    }
+    .nav span{
+       
+        border-radius: 3px;
+        padding: 12px 12px;
+        
+}
+
+
+.banner{
+    margin-top: 10%;
+
+}
+
+.banner h1{
+    
+    font-size: 25px;
+    
+}
+.banner p{
+    
+    font-size: 13px;
+    
+    
+}
+.banner button{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    
+}
+
+
+.box h2{
+    font-size: 20px;
+}
+.box .fa{
+    font-size: 42px;
+
+}
+.box p{
+    
+    font-size: 14px;
+    line-height: 25px;
+    
+}
+
+
+.left-top h3{
+    
+    font-size:17px ;
+    
+}
+
+.left-top p{
+ 
+    font-size: 13px;
+    
+    line-height: 17px;
+  
+}
+
+.left-leftA h1{
+    
+    font-size: 22px;
+    
+}
+
+.leftA p{
+    font-size: 15px;
+    
+
+    
+}
+
+
+
+
+
+
+.leftB button{
+    width: 100%;
+
+    height: 40px;
+    
+    font-size: 17px;
+    
+    
+    
+
+}
+
+.leftB h6{
+    font-size: 16px;
+    text-align: left;
+
+    
+}
+
+.leftB p{
+    font-size: 15px;
+    
+
+    
+}
+
+
+
+
+
+
+.leftC button{
+    width: 100%;
+    height: 40px;
+    
+    font-size: 17px;
+    
+    
+    
+
+}
+.leftC h6{
+    font-size: 17px;
+    text-align: left;
+
+    
+}
+.leftC p{
+    
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+.right-buttomA h3{
+    font-size: 22px;
+    
+}
+
+.right-buttomA p{
+
+    font-size: 13px;
+    width: 100%;
+    line-height: 18px;
+    clear: both;
+    float: left;
+    
+   
+}
+
+.right-buttomA img{
+    width: 28%;
+}
+
+.right-buttomB p{
+     
+    font-size: 12px;
+    line-height: 15px;
+    float: left;
+    
+}
+.right-buttomB img{
+    margin-top: 30px;
+    width: 28%;
+    clear: both;
+
+}
+
+.right-buttomB h5{
+    font-size: 15px;
+    float: left;
+    clear: both;
+
+}
+
+.right-buttomc p{
+     
+    font-size: 12px;
+    line-height: 15px;
+    float: left;
+    
+}
+.right-buttomc img{
+    margin-top: 30px;
+    width: 28%;
+    clear: both;
+}
+
+.right-buttomc h5{
+    font-size: 15px;
+    float: left;
+    clear: both;
+
+}
+
+.right-buttomd p{
+     
+    font-size: 12px;
+    line-height: 15px;
+    float: left;
+    
+}
+.right-buttomd img{
+    margin-top: 30px;
+    width: 28%;
+    clear: both;
+
+
+}
+
+.right-buttomd h5{
+    font-size: 15px;
+    float: left;
+    clear: both;
+}
+
+.right-buttomD button{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    
+    
+    
+} 
+
+.footer{
+    font-size: 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
